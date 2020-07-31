@@ -22,16 +22,10 @@ docker-compose up
 http://localhost:3000
 ```
 
-### Run migrations
+### Run migrations and seeders
 
 ```
-docker-compose run --rm api npm run migrate
-```
-
-### Run seeder
-
-```
-docker-compose run --rm api npm run seed
+docker-compose run --rm api npm run release
 ```
 
 ## API
